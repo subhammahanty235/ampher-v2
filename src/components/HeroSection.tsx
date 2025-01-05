@@ -9,6 +9,13 @@ const HeroSection = () => {
     <section id="home" className="pt-32 pb-20 min-h-screen flex items-center bg-gradient-to-br from-white to-green-50">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/d2c61e56-2f86-4731-824f-a8d0a7ad0367.png" 
+              alt="Ampher Logo" 
+              className="h-16"
+            />
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Transforming Ideas into
             <span className="text-primary"> Digital Reality</span>

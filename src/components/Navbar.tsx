@@ -21,7 +21,13 @@ const Navbar = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">TechCorp</div>
+          <div className="flex items-center space-x-2">
+            <img 
+              src="/lovable-uploads/d2c61e56-2f86-4731-824f-a8d0a7ad0367.png" 
+              alt="Ampher Logo" 
+              className="h-8"
+            />
+          </div>
           <div className="hidden md:flex space-x-8">
             {['home', 'about', 'services', 'testimonials', 'contact'].map((section) => (
               <button
