@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/lovable-uploads/d2c61e56-2f86-4731-824f-a8d0a7ad0367.png" 
+                src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
                 alt="Ampher Logo" 
                 className="h-8 brightness-0 invert"
               />
