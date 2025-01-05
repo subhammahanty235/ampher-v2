@@ -25,7 +25,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
               alt="Ampher Logo" 
-              className="h-8"
+              className="h-12"
             />
           </div>
           <div className="hidden md:flex space-x-8">

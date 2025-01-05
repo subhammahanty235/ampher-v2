@@ -13,7 +13,7 @@ const HeroSection = () => {
             <img 
               src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
               alt="Ampher Logo" 
-              className="h-16"
+              className="h-24"
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
