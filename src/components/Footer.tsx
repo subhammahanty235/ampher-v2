@@ -10,7 +10,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
                 alt="Ampher Logo" 
-                className="h-8 brightness-0 invert"
+                className="h-12 brightness-0 invert"
               />
             </div>
             <p className="text-gray-400">
