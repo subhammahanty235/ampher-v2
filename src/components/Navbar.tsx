@@ -29,7 +29,7 @@ const Navbar = () => {
             />
           </div>
           <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'services', 'testimonials', 'contact'].map((section) => (
+            {['home', 'about', 'services', 'testimonials', 'contact', 'careers'].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
