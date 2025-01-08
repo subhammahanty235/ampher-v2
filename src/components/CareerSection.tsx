@@ -58,8 +58,8 @@ const CareerSection = () => {
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <p className="text-sm text-gray-600">
                       Interested? Email us your resume at{" "}
-                      <a href="mailto:contact@ampher.tech" className="text-primary font-semibold">
-                        contact@ampher.tech
+                      <a href="mailto:careers@ampher.tech" className="text-primary font-semibold">
+                      careers@ampher.tech
                       </a>{" "}
                       with the job ID in the subject line.
                     </p>
