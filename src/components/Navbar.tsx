@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
+              src="https://trippy.blob.core.windows.net/ampher/image (3).png" 
               alt="Ampher Logo" 
-              className="h-16"
+              className="h-9"
             />
           </div>
           <div className="hidden md:flex space-x-8">

@@ -6,20 +6,20 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "John Smith",
-      role: "CEO, Tech Solutions Inc",
+      name: "Subham Mahanty",
+      role: "CEO, Brick Sols",
       content: "Working with this team has transformed our business operations. Their expertise in IT consulting is unmatched.",
     },
-    {
-      name: "Sarah Johnson",
-      role: "CTO, Innovation Labs",
-      content: "The development team delivered our project ahead of schedule and exceeded all expectations. Highly recommended!",
-    },
-    {
-      name: "Michael Brown",
-      role: "Director, Digital First",
-      content: "Their strategic guidance helped us navigate our digital transformation successfully. A truly valuable partner.",
-    },
+    // {
+    //   name: "Sarah Johnson",
+    //   role: "CTO, Innovation Labs",
+    //   content: "The development team delivered our project ahead of schedule and exceeded all expectations. Highly recommended!",
+    // },
+    // {
+    //   name: "Michael Brown",
+    //   role: "Director, Digital First",
+    //   content: "Their strategic guidance helped us navigate our digital transformation successfully. A truly valuable partner.",
+    // },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

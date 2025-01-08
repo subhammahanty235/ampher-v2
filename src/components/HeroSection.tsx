@@ -11,9 +11,9 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-8">
             <img 
-              src="/lovable-uploads/c54e0046-a56a-4d72-a434-bd9f07250710.png" 
+              src="https://trippy.blob.core.windows.net/ampher/image (3).png" 
               alt="Ampher Logo" 
-              className="h-32"
+              className="h-24"
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">

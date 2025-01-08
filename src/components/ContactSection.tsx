@@ -34,16 +34,16 @@ const ContactSection = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <Mail className="h-6 w-6 text-primary" />
-                <span className="text-gray-600">contact@techcorp.com</span>
+                <span className="text-gray-600">contact@ampher.tech</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="h-6 w-6 text-primary" />
-                <span className="text-gray-600">+1 (555) 123-4567</span>
+                <span className="text-gray-600">+91 9932237171</span>
               </div>
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <MapPin className="h-6 w-6 text-primary" />
-                <span className="text-gray-600">123 Tech Street, Silicon Valley, CA</span>
-              </div>
+                <span className="text-gray-600"></span>
+              </div> */}
             </div>
           </div>
           <div>
