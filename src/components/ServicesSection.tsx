@@ -61,9 +61,9 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside text-gray-600">
-                  <li>24/7 Support</li>
-                  <li>Expert Team</li>
-                  <li>Quick Delivery</li>
+                  {
+                    service.experties.map((exp)=><li>{exp}</li>)
+                  }
                 </ul>
               </CardContent>
             </Card>
