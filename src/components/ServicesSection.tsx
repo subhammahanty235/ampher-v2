@@ -7,21 +7,41 @@ const ServicesSection = () => {
       title: "Custom Development",
       description: "Tailored software solutions designed to meet your specific business needs",
       icon: Code,
+      experties:[
+        "24/7 Support",
+        "Expert Team",
+        "Free Hosting (1Year)",
+      ]
     },
     {
       title: "IT Consulting",
       description: "Strategic technology guidance to optimize your business operations",
       icon: LineChart,
+      experties:[
+        "24/7 Support",
+        "Cross-Verified Insights",
+        "In-dept Analysis"
+      ]
     },
     {
       title: "Digital Transformation",
       description: "Comprehensive solutions to modernize your business processes",
       icon: Laptop,
+      experties:[
+        "24/7 Support",
+        "Expert Team",
+        "In-dept Analysis"
+      ]
     },
     {
       title: "Team Augmentation",
       description: "Skilled professionals to strengthen your existing team",
       icon: Users,
+      experties:[
+        "24/7 Support",
+        "Expert Team",
+        "Quick Delivery"
+      ]
     },
   ];
 
