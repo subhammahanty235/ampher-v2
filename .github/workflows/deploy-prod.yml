@@ -3,7 +3,7 @@ name: ampher-prod application
 on:
   push:
     branches:
-      - production  # Trigger deployment when changes are pushed to the `main` branch
+      - production  # Trigger deployment when changes are pushed to the `production` branch
 
 jobs:
   deploy:
@@ -16,10 +16,8 @@ jobs:
       - name: Log in to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          
+          creds: ${{ secrets.AZURE_CREDENTIALS }}  # Use the new creds format
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
