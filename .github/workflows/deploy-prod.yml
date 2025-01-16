@@ -3,7 +3,7 @@ name: ampher-prod application
 on:
   push:
     branches:
-      - production  # Trigger deployment when changes are pushed to the `production` branch
+      - main  # Trigger deployment when changes are pushed to the `production` branch
 
 jobs:
   deploy:
