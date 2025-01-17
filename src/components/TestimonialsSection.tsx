@@ -6,8 +6,8 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Subham Mahanty",
-      role: "CEO, Brick Sols",
+      name: "Steve Bolf",
+      role: "CEO",
       content: "Working with this team has transformed our business operations. Their expertise in IT consulting is unmatched.",
     },
     // {
